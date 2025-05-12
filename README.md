@@ -59,8 +59,10 @@
 ## ✅ Backend Requirements (PHP OOP + MySQL)
 
 ### 📦 Structure:
-- ⚙️ Use **pure PHP** (no frameworks)
+⚙️ Use **pure PHP** (no frameworks)
+  
 🧱 Organize code with namespaces using the LH prefix (e.g., LH\Models, LH\Controllers).
+
 🧩 Use reusable classes with the LH prefix (e.g., LH\Database, LH\Blog, LH\RequestHandler).
 
 
