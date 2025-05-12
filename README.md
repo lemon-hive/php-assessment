@@ -6,15 +6,16 @@
 
 ## 🎨 Frontend Guidelines
 
-- ✅ Use **SCSS** for styling.
-- ✅ Prefix classes with `lh-`, e.g., `lh-hero-banner`.
+- ✅ Use **TailwindCSS** for styling.
 - ✅ Design using a **mobile-first** approach.
 - ✅ Ensure **cross-browser compatibility**.
 - ✅ Use **semantic HTML** elements.
 - ✅ Apply **ARIA properties** where necessary.
 - ✅ Follow the **DRY (Don’t Repeat Yourself)** principle.
 
-## ✅ Task 1 – Blog List Page (`index.php`)
+## ✅ Task 1 – A top navigation.
+
+## ✅ Task 2 – Blog List Page (`index.php`).
 
 ### 📌 Display:
 - 🖼️ **Featured image**  
@@ -26,7 +27,7 @@
 
 ---
 
-## ✅ Task 2 – Single Blog Page (`blog.php`)
+## ✅ Task 3 – Single Blog Page (`blog.php`)
 
 ### 📌 Display:
 - 📝 **Full blog title**  
@@ -35,10 +36,12 @@
 
 ---
 
-## ✅ Task 3 – Admin Panel (`/admin` folder)
+## ✅ Task 4 – Admin Panel (`/admin` folder)
 
 ### 📌 Pages:
 - 🔐 **Login:** Hardcoded credential check (user: lemon, password: lemon)
+    - If the user is not authenticated, accessing the admin panel shows a login form. The login form authenticates using hardcoded credentials (username: lemon, password: lemon). On success, store the login state in the PHP session, and skip the login form for the rest of the session.
+
 - 📋 **Dashboard:** List blog posts with **Edit/Delete** options  
 - ➕ **Create Post:** Form with `title`, `description`, and `image` (jpg/jpeg/png only)  
 - ✏️ **Edit Post:** Pre-filled form to update post  
