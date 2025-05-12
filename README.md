@@ -42,10 +42,10 @@
 - 🔐 **Login:** Hardcoded credential check (user: lemon, password: lemon)
     - If the user is not authenticated, accessing the admin panel shows a login form. The login form authenticates using hardcoded credentials (username: lemon, password: lemon). On success, store the login state in the PHP session, and skip the login form for the rest of the session.
 
-- 📋 **Dashboard:** List blog posts with **Edit/Delete** options  
+- 📋 **Dashboard:** List blog posts with **Edit/Delete** options  (Edit/delete - Optional)
 - ➕ **Create Post:** Form with `title`, `description`, and `image` (jpg/jpeg/png only)  
-- ✏️ **Edit Post:** Pre-filled form to update post  
-- ❌ Delete with Confirmation (AJAX):
+- ✏️ **Edit Post:** Pre-filled form to update post (optional)
+- ❌ Delete with Confirmation (AJAX): (optional)
 
     - Show a modal or prompt before deletion
 
