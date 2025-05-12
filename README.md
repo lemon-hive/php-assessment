@@ -60,8 +60,9 @@
 
 ### 📦 Structure:
 - ⚙️ Use **pure PHP** (no frameworks)
-- 🧱 Organize code with **namespaces** (e.g., `App\Models`, `App\Controllers`)
-- 🧩 Use **reusable classes** (e.g., `Database`, `Blog`, `RequestHandler`)
+🧱 Organize code with namespaces using the LH prefix (e.g., LH\Models, LH\Controllers).
+🧩 Use reusable classes with the LH prefix (e.g., LH\Database, LH\Blog, LH\RequestHandler).
+
 
 ---
 
@@ -87,17 +88,23 @@
 
 ---
 
-## 🧠 Core PHP Classes
+## 🧠 Core PHP Classes Examples
 
-- **Database**  
-  - Singleton PDO connection
+### LH\Database
+- Singleton PDO connection
 
-- **Blog**  
-  - `getAll($limit, $offset)`  
-  - `getById($id)`  
-  - `create($title, $desc, $img)`  
-  - `update($id, $title, $desc, $img)`  
-  - `delete($id)`
+### LH\Blog
+- `getAllPosts($limit, $offset)`
+- `getPostById($id)`
+- `createPost($title, $desc, $img)`
+- `updatePost($id, $title, $desc, $img)`
+- `deletePost($id)`
+
+### LH\RequestHandler
+- `getRequest($key)`
+- `postRequest($key)`
+- `validate($data)`
+
 
 ---
 
